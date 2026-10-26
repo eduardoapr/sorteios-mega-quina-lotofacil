@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Se usar estes dados, cite o retrato (data) e o repositório. If you use this dataset, please cite it with the snapshot date."
+type: dataset
+title: "Sorteios da Mega-Sena, da Quina e da Lotofácil (histórico completo, uma linha por concurso)"
+authors:
+  - family-names: Rocha
+    given-names: Eduardo
+abstract: "Histórico completo de sorteios de três loterias da Caixa Econômica Federal, um CSV por jogo e uma linha por concurso, com as dezenas, o número de apostas ganhadoras da faixa principal e uma marca para os sorteios em que todas as dezenas ficam entre 1 e 31. Compilado pelo Mundo das Loterias, site independente sem vínculo com a Caixa. Nada nestes dados muda a chance de ganhar; a faixa até 31 só muda com quantas pessoas o prêmio é dividido."
+keywords:
+  - loteria
+  - Mega-Sena
+  - Quina
+  - Lotofácil
+  - Caixa Econômica Federal
+  - dados abertos
+  - lottery
+  - Brazil
+license-url: "https://mundodasloterias.com.br/dados/#licenca"
+repository-code: "https://github.com/eduardoapr/sorteios-mega-quina-lotofacil"
+url: "https://mundodasloterias.com.br/dados/"
+date-released: "2026-10-26"

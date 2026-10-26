@@ -1,0 +1,17 @@
+{
+  "title": "Sorteios da Mega-Sena, da Quina e da Lotofácil (histórico completo, uma linha por concurso)",
+  "upload_type": "dataset",
+  "description": "<p>Histórico completo de sorteios de três loterias da Caixa Econômica Federal (Mega-Sena, Quina e Lotofácil), um arquivo CSV por jogo e uma linha por concurso: número do concurso, data, dezenas sorteadas, maior dezena, uma marca para os sorteios em que todas as dezenas ficam entre 1 e 31 (a faixa das datas de aniversário) e o número de apostas ganhadoras da faixa principal. Compilado pelo Mundo das Loterias (mundodasloterias.com.br), site independente sem vínculo com a Caixa. Os dados bastam para refazer o estudo que mostra que, quando o sorteio cai todo até 31, mais gente divide o prêmio; o efeito é sobre dividir, nunca sobre ganhar: cada sorteio é independente e todas as combinações têm a mesma probabilidade. A versão atualizada a cada concurso está em https://mundodasloterias.com.br/dados/.</p><p><strong>English.</strong> Draw history of three Brazilian lotteries (Mega-Sena, Quina, Lotofácil), one CSV per game and one row per draw, with the numbers drawn, the top-prize winning bets and a flag for draws whose numbers all fall between 1 and 31. Compiled by mundodasloterias.com.br, an independent site with no link to Caixa. Picking numbers above 31 does not change anyone's odds; it only lowers the chance of sharing a prize.</p><p><strong>Licença / License.</strong> As colunas calculadas (maior_dezena e todas_ate_31) e a organização dos arquivos estão sob CC BY 4.0. Os resultados dos sorteios (concurso, data, dezenas e ganhadores) são publicados pela Caixa Econômica Federal sob os próprios termos de uso; a licença não se estende a eles. Detalhe em https://mundodasloterias.com.br/dados/#licenca.</p>",
+  "creators": [
+    { "name": "Rocha, Eduardo" }
+  ],
+  "access_right": "open",
+  "language": "por",
+  "keywords": ["loteria", "Mega-Sena", "Quina", "Lotofácil", "Caixa Econômica Federal", "sorteios", "dados abertos", "Brasil", "lottery", "Brazil"],
+  "related_identifiers": [
+    { "identifier": "https://mundodasloterias.com.br/dados/", "relation": "isDescribedBy", "resource_type": "publication-other" },
+    { "identifier": "https://mundodasloterias.com.br/estudos/datas-de-aniversario-e-divisao-de-premio/", "relation": "isSupplementTo", "resource_type": "publication-other" },
+    { "identifier": "https://www.kaggle.com/datasets/eduardoapr/sorteios-mega-quina-lotofacil", "relation": "isIdenticalTo", "resource_type": "dataset" }
+  ],
+  "notes": "Licença mista: CC BY 4.0 só para as colunas calculadas e a organização dos arquivos; os resultados dos sorteios são da Caixa Econômica Federal (https://www.caixa.gov.br/termos-de-uso/Paginas/default.aspx). Ver https://mundodasloterias.com.br/dados/#licenca. Retrato datado: o concurso de corte de cada arquivo está no README."
+}
